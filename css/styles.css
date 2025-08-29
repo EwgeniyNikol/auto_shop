@@ -388,6 +388,9 @@ a {
   /*   background-color: #fff; */
   transform: scale(1.1);
 }
+.hero__button:hover {
+  transform: scale(1.1);
+}
 .card__section__shoose__name {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
