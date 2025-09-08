@@ -110,57 +110,49 @@ legend {
 }
 /* /////////////////////////////////content///////////////////// */
 
-   @font-face {
-    font-family: "Inter";
-    src:
-        local("Inter"),
-        url("../font/Inter-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../font/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Inter";
-    src:
-        local("InterBlack"),
-        url("../font/Inter-Black.woff") format("woff");
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Inter";
+  src: local("InterBlack"), url("../font/Inter-Black.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Inter";
-    src:
-        local("InterMedium"),
-        url("../font/Inter-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Inter";
+  src: local("InterMedium"), url("../font/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Inter";
-    src:
-        local("InterRegular"),
-        url("../font/Inter-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-} 
+  font-family: "Inter";
+  src: local("InterRegular"), url("../font/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --main-color-white: #ffffff;
   --main-color-black: #000000;
   --main-color-grey: #a3a3a3;
-  --main-color-red: #F50E30;
+  --main-color-red: #f50e30;
 }
 /* var(--main-color-red); */
 body {
   background-color: var(--main-color-white);
-  width: 1919px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -168,7 +160,7 @@ body {
   margin: 28px auto 0 auto;
   align-items: center;
   justify-content: space-between;
-  width: 1319px;
+  width: 1280px;
 }
 
 .header__logo {
@@ -275,7 +267,7 @@ a {
 .hero {
   display: flex;
   flex-direction: column;
-  width: 1319px;
+  width: 1280px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 114px;
@@ -330,7 +322,7 @@ a {
   margin: 0 auto;
   position: relative;
   /* width: 1919px; */
-  height: 800px;
+  min-height: 800px;
 }
 .card__title {
   margin: 0 auto;
@@ -367,14 +359,14 @@ a {
   color: var(--main-color-white);
   font-size: 20px;
   font-family: "inter" Arial, Helvetica, sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
   text-align: center;
   white-space: nowrap;
 }
 
 .card__section {
   display: flex;
-  flex-direction: norow;
+  /* flex-direction: norow; */
   /* margin: 0 auto; */
   margin-top: 40px;
   justify-content: center;
@@ -394,11 +386,10 @@ a {
 }
 
 .card__button:hover {
-  /*   background-color: #fff; */
-  transform: scale(1.1);
+  background-color: #c73713;
 }
 .hero__button:hover {
-  transform: scale(1.1);
+  background-color: #c73713;
 }
 .card__name {
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -479,7 +470,7 @@ a {
   margin-top: 40px;
   justify-content: center;
   gap: 24px;
-  overflow:auto;
+  overflow: auto;
 }
 .shop__card {
   display: flex;
@@ -604,7 +595,30 @@ a {
   margin: 0 auto;
 }
 .shop__button:hover {
-  transform: scale(1.1);
+  background-color: #c73713;
 }
+
+/* Switch container */
+
+position: absolute;
+width: 63px;
+height: 63px;
+left: 267px;
+top: 571px;
+
+/* Text input container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 316px;
+height: 4px;
+left: 801px;
+top: 987px;
 
 /* //////////////////////////              //////////////////////// */
