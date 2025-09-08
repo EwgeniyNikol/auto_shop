@@ -374,6 +374,7 @@ a {
 
 .card__shoose {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   width: 409px;
   /* height: 264px; */
@@ -418,8 +419,8 @@ a {
   width: 95px;
   height: 85px;
   position: absolute;
-  right: 1250px;
-  top: 580px;
+  right: 30px;
+  top: 160px;
 }
 .img_2::before {
   background-image: url("../images/Image avtored.png");
@@ -428,8 +429,8 @@ a {
   width: 225px;
   height: 120px;
   position: absolute;
-  right: 750px;
-  top: 570px;
+  right: 10px;
+  top: 140px;
 }
 .img_3::before {
   background-image: url("../images/Imagecrivay.png");
@@ -438,8 +439,8 @@ a {
   width: 225px;
   height: 130px;
   position: absolute;
-  right: 340px;
-  top: 560px;
+  right: 10px;
+  top: 120px;
 }
 /* //////////////////schop/////////////////////// */
 
