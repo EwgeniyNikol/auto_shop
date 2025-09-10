@@ -463,7 +463,6 @@ a {
   /* margin-left: 320px; */
 }
 .shop__content-card {
-  height: 1091px;
   display: flex;
   margin-top: 40px;
   justify-content: center;
@@ -496,9 +495,6 @@ a {
   line-height: 36px;
   text-align: right;
   color: #000000;
-  /* margin: 0px 0 0 24px; */
-  /* border: 2px solid red; */
-  height: 30px;
 }
 .text-price {
   width: 100%;
