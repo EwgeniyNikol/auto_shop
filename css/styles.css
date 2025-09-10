@@ -215,7 +215,7 @@ body {
 
 .header__social-telegram {
   display: block;
-  background-image: url("../images/Vertical container.png");
+  background-image: url("../images/Vertical_container.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 30px;
@@ -224,7 +224,7 @@ body {
 
 .header__social-whatsapp {
   display: block;
-  background-image: url("../images/Vertical container Vsap.png");
+  background-image: url("../images/Vertical_container _Vsap.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 30px;
@@ -233,7 +233,7 @@ body {
 
 .header__social-youtube {
   display: block;
-  background-image: url("../images/Vertical containe yotbe.png");
+  background-image: url("../images/Vertical_containe_yotbe.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 30px;
@@ -268,14 +268,12 @@ a {
   display: flex;
   flex-direction: column;
   width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
+  margin:0 auto;
   padding-top: 114px;
   position: relative;
 }
-
 .hero::before {
-  background-image: url("../images/Image avto.png");
+  background-image: url("../images/Image_avto.png");
   content: "";
   width: 816px;
   height: 417px;
@@ -283,7 +281,6 @@ a {
   right: -124px;
   top: 120px;
 }
-
 .hero__title {
   max-width: 672px;
   font-size: 52px;
@@ -291,7 +288,6 @@ a {
   font-weight: 700;
   margin-bottom: 20px;
 }
-
 .hero__content {
   max-width: 600px;
   font-size: 20px;
@@ -299,11 +295,9 @@ a {
   font-weight: 500;
   margin-bottom: 44px;
 }
-
 .big-text {
   text-transform: uppercase;
 }
-
 .hero__button {
   box-sizing: border-box;
   border: none;
@@ -320,9 +314,14 @@ a {
 /* /////////////////////карточки////////////// */
 .card__content {
   margin: 0 auto;
-  position: relative;
+  
   /* width: 1919px; */
-  min-height: 800px;
+  /* min-height: 800px; */
+}
+.card__wrap {
+  width: 1280px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
 }
 .card__title {
   margin: 0 auto;
@@ -363,29 +362,23 @@ a {
   text-align: center;
   white-space: nowrap;
 }
-
 .card__section {
   display: flex;
-  /* flex-direction: norow; */
-  /* margin: 0 auto; */
+  position: relative;
   margin-top: 40px;
   justify-content: center;
+  gap: 25px;
 }
-
 .card__shoose {
   display: flex;
   position: relative;
   flex-wrap: wrap;
   width: 409px;
-  /* height: 264px; */
-  /* width: 33.33%; */
-  margin: 0 20px;
   background: var(--main-color-white);
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
   cursor: pointer;
 }
-
 .card__button:hover {
   background-color: #c73713;
 }
@@ -411,9 +404,8 @@ a {
   color: rgba(0, 0, 0, 0.8);
   padding: 24px 78px 91px 32px;
 }
-
 .img_1::before {
-  background-image: url("../images/Image mers.png");
+  background-image: url("../images/Image_mers.png");
   content: "";
   background-repeat: no-repeat;
   width: 95px;
@@ -423,14 +415,14 @@ a {
   top: 160px;
 }
 .img_2::before {
-  background-image: url("../images/Image avtored.png");
+  background-image: url("../images/Image_avtored.png");
   content: "";
   background-repeat: no-repeat;
   width: 225px;
   height: 120px;
   position: absolute;
-  right: 10px;
-  top: 140px;
+  right: 0px;
+  top: 150px;
 }
 .img_3::before {
   background-image: url("../images/Imagecrivay.png");
@@ -450,6 +442,7 @@ a {
 .shop__wrap {
   margin: 0 auto;
   width: 1280px;
+  padding-top: 100px;;
 }
 .shop__title {
   font-family: "Inter";
