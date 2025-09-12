@@ -571,7 +571,7 @@ a {
   margin-top: 40px;
   justify-content: center;
   gap: 24px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 .shop__card {
   display: flex;
@@ -694,7 +694,47 @@ a {
 .shop__button:hover {
   background-color: #c73713;
 }
-/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////// советы //////////////////////////////////////////////////////// */
+.advice__wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+.advice__content {
+  margin: 100px 0 100px 0;
+  padding-left: 60px;
+  display: flex;
+}
+.advice__text {
+  width: 586px;
+}
+.advice__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #000000;
+}
+.prim {
+  color: #F50E30;
+}
+.info-advice {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 20px;
+  width: 450px;
+}
+.advice__img {
+  width: 612px;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 
