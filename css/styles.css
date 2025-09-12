@@ -441,7 +441,7 @@ a {
   display: flex;
 }
 .aboatas__img {
-  width: 908px;
+  max-width: 908px;
 }
 .aboutas__content {
   padding-left: 100px;
