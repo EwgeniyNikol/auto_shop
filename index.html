@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header class="header">
             <div class="header__logo">
-                <a href="#"><img src="images/Image.png" class="logo" alt="logo" /></a>
+                <a href="#"><img src="images/image.png" class="logo" alt="логотип компании"></a>
             </div>
             <ul class="header__list">
                 <li class="header__item">
@@ -53,8 +53,8 @@
                     </ul>
                 </div>
                 <div class="header__tel">
-                    <a class="tel" href="tel:+78352675252">+7 (8352) 67-52-52</a>
-                    <a class="tel" href="tel:+79279971242">+7 (927) 997-12-42</a>
+                    <a class="header__tel-number" href="tel:+78352675252">+7 (8352) 67-52-52</a>
+                    <a class="header__tel-number" href="tel:+79279971242">+7 (927) 997-12-42</a>
                 </div>
             </address>
         </header>
@@ -82,21 +82,21 @@
                     </h3>
                     <a class="card__button" href="#">Оставить заявку</a>
                     <ul class="card__section">
-                        <li class="card__shoose img_1" href="#">
+                        <li class="card__shoose img_1">
                             <h4 class="card__name">С пробегом</h4>
                             <p class="card__text">
                                 Предлагаем купить автомобиль дешевле до 60%, от рыночной цены на
                                 Авито и Авто.ру
                             </p>
                         </li>
-                        <li class="card__shoose img_2" href="#">
+                        <li class="card__shoose img_2">
                             <h4 class="card__name">Новые</h4>
                             <p class="card__text">
                                 Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной
                                 ценына Авито и Авто.ру
                             </p>
                         </li>
-                        <li class="card__shoose img_3" href="#">
+                        <li class="card__shoose img_3">
                             <h4 class="card__name">Под ваш бюджет</h4>
                             <p class="card__text">
                                 Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной
@@ -108,7 +108,7 @@
             </section>
             <section class="aboutas">
               <div class="aboutas__wrap">
-                <img src="images/Container_about_1x.png" srcset="images/Container_about_2x.png, images/Container_aboutas_1.5x.png" width="100%" alt="фото офиса" class="aboatas__img"/>
+                <img src="images/Container_about_1x.png" width=100% alt="фото офиса" class="aboatas__img">
                 <div class="aboutas__content">
                   <h2 class="aboutas__title"> О нас </h2>
                   <p class="aboutas__text"> Мы автосалон и официальный партнер крупнейших мировых авто-аукционов: IAA (Insurance Auto Auction), Copart, Manheim.</p>
@@ -130,7 +130,7 @@
                     </a>
                     <div class="shop__content-card">
                         <div class="shop__card">
-                            <img src="images/Rav4.png" width="100%"  alt="тойота раф 4" class="shop_img"/>
+                            <img src="images/Rav4.png" width="100%"  alt="изображение авто тойота раф4" class="shop_img">
                             <a class="avto-title">Toyota RAV4 2022</a>
                             <div class="text-price">
                                 <div class="shop__strit">
@@ -161,7 +161,7 @@
                             <a class="shop__button" href="#">Оставить заявку</a>
                         </div>
                         <div class="shop__card">
-                            <img src="images/audiImage.png" width="100%" alt="тойота раф 4" class="shop_img"/>
+                            <img src="images/audiImage.png" width=100% alt="изображени авто ауди ку5" class="shop_img">
                             <a class="avto-title">Audi Q5 2021</a>
                             <div class="text-price">
                                 <div class="shop__strit">
@@ -192,7 +192,7 @@
                             <a class="shop__button" href="#">Оставить заявку</a>
                         </div>
                         <div class="shop__card">
-                            <img src="images/HondaImage.png" width="100%" alt="тойота раф 4" class="shop_img"/>
+                            <img src="images/HondaImage.png" width=100% alt="изображение авто хонда црв" class="shop_img">
                             <a class="avto-title">Honda CR-V 2021</a>
                             <div class="text-price">
                                 <div class="shop__strit">
@@ -233,7 +233,15 @@
                     <p class="info-advice">c учетом расходов на доставку, растаможку и наши услуги.</p>
                     <a class="aboutas__buttom" href="#">Оставить заявку</a>
                   </div>
-                  <img src="images/Image_toyta_1x.png" srcset="images/Image_toyta_2x.png, images/Image_toyta_1,5x.png" width="100%" alt="maibyf njqjnf" class="advice__img"/>
+                  <img src="images/Image_toyta_1x.png" width=100% alt="изображение авто тойота" class="advice__img">
+                  <!-- <picture>
+                    <source width="585" height="351" type="image/webp" media="(min-width: 1240px)" srcset="./img/main-img-desk@1x.webp 1x, ./img/main-img-desk@2x.webp 2x">
+                    <source width="339" height="328" type="image/webp" media="(min-width: 768px)" srcset="./img/main-img-tab@1x.webp 1x, ./img/main-img-tab@2x.webp 2x">
+                    <source width="340" height="234" type="image/webp" srcset="./img/main-img-mob@1x.webp 1x, ./img/main-img-mob@2x.webp 2x">
+                    <source width="585" height="351" type="image/jpeg" media="(min-width: 1240px)" srcset="./img/main-img-desk@1x.jpg 1x, ./img/main-img-desk@2x.jpg 2x">
+                    <source width="339" height="328" type="image/jpeg" media="(min-width: 768px)" srcset="./img/main-img-tab@1x.jpg 1x, ./img/main-img-tab@2x.jpg 2x">
+                    <img class="hero__img" src="./img/main-img-mob@1x.jpg" srcset="./img/main-img-mob@2x.jpg 2x" width="340" height="234" alt="Ноутбук на столе" loading="lazy" decoding="async">
+                  </picture> -->
                 </div>
               </div>
             </section>

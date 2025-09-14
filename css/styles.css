@@ -150,6 +150,7 @@ legend {
   --main-color-red: #f50e30;
 }
 /* var(--main-color-red); */
+
 body {
   background-color: var(--main-color-white);
   overflow-x: hidden;
@@ -175,6 +176,7 @@ body {
   font-weight: 400;
   margin-left: 170px;
 }
+
 .header__link {
   color: var(--main-color-black);
 }
@@ -183,9 +185,9 @@ body {
   margin-right: 40px;
 }
 
-.header__item:hover {
+/* .header__item:hover {
   text-decoration: underline;
-}
+} */
 .header__item:last-child {
   margin-right: 0;
 }
@@ -205,10 +207,12 @@ body {
 .header__social-icon {
   margin-right: 12px;
 }
+
 .header__social-icon:hover {
   /* background-color: #fff;  */
   transform: scale(1.1);
 }
+
 .header__social-icon:last-child {
   margin-right: 0;
 }
@@ -239,6 +243,7 @@ body {
   width: 30px;
   height: 30px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -258,12 +263,15 @@ body {
   font-weight: 500;
   color: var(--main-color-black);
 }
+
 a {
   color: var(--main-color-black);
 }
-.tel:hover {
+
+.header__tel-number:hover {
   text-decoration: underline;
 }
+
 .hero__wrap {
   display: flex;
   flex-direction: column;
@@ -272,6 +280,7 @@ a {
   padding-top: 114px;
   position: relative;
 }
+
 .hero__wrap::before {
   background-image: url("../images/Image_avto.png");
   content: "";
@@ -281,6 +290,7 @@ a {
   right: -124px;
   top: 120px;
 }
+
 .hero__title {
   max-width: 672px;
   font-size: 52px;
@@ -288,6 +298,7 @@ a {
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .hero__content {
   max-width: 600px;
   font-size: 20px;
@@ -295,9 +306,11 @@ a {
   font-weight: 500;
   margin-bottom: 44px;
 }
+
 .big-text {
   text-transform: uppercase;
 }
+
 .hero__button {
   box-sizing: border-box;
   border: none;
@@ -311,19 +324,23 @@ a {
   font-weight: 700;
   padding: 18px 54px;
 }
+
 /* /////////////////////карточки////////////// */
+
 .card__content {
   margin: 0 auto;
   background-color: #F4F6F8;
   /* width: 1919px; */
   /* min-height: 800px; */
 }
+
 .card__wrap {
   width: 1280px;
   margin: 0 auto;
   padding-bottom: 119px;
   /* border: 2px solid red; */
 }
+
 .card__title {
   margin: 0 auto;
   padding-top: 113px;
@@ -336,6 +353,7 @@ a {
   text-align: center;
   color: var(--main-color-black);
 }
+
 .card__offer {
   margin: 40px;
   font-family: "Inter" Arial, Helvetica, sans-serif;
@@ -346,6 +364,7 @@ a {
   text-align: center;
   color: var(--main-color-black);
 }
+
 .card__button {
   display: flex;
   margin: 0 auto;
@@ -363,6 +382,7 @@ a {
   text-align: center;
   white-space: nowrap;
 }
+
 .card__section {
   display: flex;
   position: relative;
@@ -370,6 +390,7 @@ a {
   justify-content: center;
   gap: 25px;
 }
+
 .card__shoose {
   display: flex;
   position: relative;
@@ -380,12 +401,15 @@ a {
   border-radius: 20px;
   cursor: pointer;
 }
+
 .card__button:hover {
   background-color: #c73713;
 }
+
 .hero__button:hover {
   background-color: #c73713;
 }
+
 .card__name {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -396,6 +420,7 @@ a {
   padding-left: 37px;
   padding-top: 21px;
 }
+
 .card__text {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -405,6 +430,7 @@ a {
   color: rgba(0, 0, 0, 0.8);
   padding: 24px 78px 91px 32px;
 }
+
 .img_1::before {
   background-image: url("../images/Image_mers.png");
   content: "";
@@ -415,6 +441,7 @@ a {
   right: 30px;
   top: 160px;
 }
+
 .img_2::before {
   background-image: url("../images/Image_avtored.png");
   content: "";
@@ -425,6 +452,7 @@ a {
   right: 0px;
   top: 150px;
 }
+
 .img_3::before {
   background-image: url("../images/Imagecrivay.png");
   content: "";
@@ -435,26 +463,32 @@ a {
   right: 10px;
   top: 120px;
 }
+
 /* ////////////////////////////////////О нас//////////////////////////////////////// */
+
 .aboutas__wrap {
   margin-top: 72px;
   display: flex;
 }
+
 .aboatas__img {
   max-width: 908px;
 }
+
 .aboutas__content {
   padding-left: 100px;
 }
+
 .aboutas__title {
- margin-top: 52px;
- font-family: "Inter";
- font-style: normal;
- font-weight: 700;
- font-size: 44px;
- line-height: 54px;
- color: #000000;
+  margin-top: 52px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #000000;
 }
+
 .aboutas__text {
   width: 524px;
   margin-top: 12px;
@@ -465,12 +499,14 @@ a {
   line-height: 32px;
   color: #000000;
 }
+
 .aboutas__info{
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
   width: 500px;
 }
+
 .abinfo {
   font-family: "Inter";
   font-style: normal;
@@ -481,9 +517,11 @@ a {
   padding-left: 76px;
   cursor: pointer;
 }
+
 .abinfo:hover {
   text-decoration: underline;
 }
+
 .abinfo::before {
   position: absolute;
   left: 0;
@@ -499,15 +537,27 @@ a {
   background-size: 36px 36px;
   cursor: pointer;
 }
+
 .info-1::before {
  background-image: url(../images/Text_input_container_1x.png), url(../images/Text_input_container.svg);
 }
+
 .info-2::before {
  background-image: url(../images/Text_input_container2.png), url(../images/Text_input_container2.svg);
 }
+
 .info-3::before {
  background-image: url(../images/Text_input_container3.png), url(../images/Text_input_container3.svg);
 }
+
+/* background: image-set(
+        url("../img/ellipses-phone-desk@1x.webp") type("image/webp") 1x,
+        url("../img/ellipses-phone-desk@2x.webp") type("image/webp") 2x,
+        url("../img/ellipses-phone-desk@1x.png") type("image/png") 1x,
+        url("../img/ellipses-phone-desk@2x.png") type("image/png") 2x
+      );
+       */
+
 .info-text{
   font-family: "Inter";
   font-style: normal;
@@ -516,6 +566,7 @@ a {
   width: 435px;
   padding: 36px 0 0 20px;
 }
+
 .aboutas__buttom {
   display: flex;
   margin-top: 32px;
@@ -534,20 +585,24 @@ a {
   white-space: nowrap;
 
 }
+
 .aboutas__buttom:hover {
   background-color: #c73713;
 }
+
 /* //////////////////schop/////////////////////// */
 
 .shop {
   height: 1091px;
   background-color: #F4F6F8;
 }
+
 .shop__wrap {
   margin: 0 auto;
   width: 1280px;
   padding-top: 100px;;
 }
+
 .shop__title {
   font-family: "Inter";
   font-style: normal;
@@ -558,6 +613,7 @@ a {
   /* margin-left: 320px; */
   margin-bottom: 20px;
 }
+
 .shop__text {
   font-family: "Inter";
   font-style: normal;
@@ -566,6 +622,7 @@ a {
   color: #000000;
   /* margin-left: 320px; */
 }
+
 .shop__content-card {
   display: flex;
   margin-top: 40px;
@@ -573,6 +630,7 @@ a {
   gap: 24px;
   /* overflow: auto; */
 }
+
 .shop__card {
   display: flex;
   width: 411px;
@@ -586,11 +644,13 @@ a {
   border-radius: 20px;
   padding: 20px 24px 20px 24px;
 }
+
 .shop_img {
   width: 363px;
   height: 261px;
   margin: 0 auto;
 }
+
 .avto-title {
   font-family: "Inter";
   font-style: normal;
@@ -600,9 +660,11 @@ a {
   text-align: right;
   color: #000000;
 }
+
 .text-price {
   width: 100%;
 }
+
 .card-txt {
   font-family: "Inter";
   font-style: normal;
@@ -616,6 +678,7 @@ a {
   order: 0;
   white-space: nowrap;
 }
+
 .card-mean {
   font-family: "Inter";
   font-style: normal;
@@ -628,12 +691,14 @@ a {
   order: 2;
   white-space: nowrap;
 }
+
 .shop__strit {
   display: flex;
   justify-content: space-between;
   /* justify-content: flex-end; */
   margin-top: -12px;
 }
+
 .shop__strit::before {
   display: block;
   content: "";
@@ -644,12 +709,14 @@ a {
   order: 1;
   flex-grow: 0;
 }
+
 .shop__price {
   display: flex;
   justify-content: space-between;
   /* padding: 0 24px 0 24px; */
   margin-top: 24px;
 }
+
 .text-prim {
   display: flex;
   font-family: "Inter";
@@ -660,6 +727,7 @@ a {
   color: #000000;
   width: 173px;
 }
+
 .price {
   font-family: "Inter";
   font-style: normal;
@@ -669,6 +737,7 @@ a {
   text-align: right;
   color: #000000;
 }
+
 .now-price {
   font-family: "Inter";
   font-style: normal;
@@ -677,6 +746,7 @@ a {
   line-height: 24px;
   color: var(--main-color-red);
 }
+
 .shop__button {
   box-sizing: border-box;
   border: none;
@@ -691,22 +761,27 @@ a {
   padding: 14px 0px 14px 90px;
   margin: 0 auto;
 }
+
 .shop__button:hover {
   background-color: #c73713;
 }
 /* ////////////////////////////// советы //////////////////////////////////////////////////////// */
+
 .advice__wrap {
   width: 1280px;
   margin: 0 auto;
 }
+
 .advice__content {
   margin: 100px 0 100px 0;
   padding-left: 60px;
   display: flex;
 }
+
 .advice__text {
   width: 586px;
 }
+
 .advice__title {
   font-family: "Inter";
   font-style: normal;
@@ -715,9 +790,11 @@ a {
   line-height: 54px;
   color: #000000;
 }
+
 .prim {
   color: #F50E30;
 }
+
 .info-advice {
   font-family: "Inter";
   font-style: normal;
@@ -728,10 +805,13 @@ a {
   padding-top: 20px;
   width: 450px;
 }
+
 .advice__img {
   width: 612px;
   object-fit: cover;
+  object-position: center;
 }
+
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 
 
