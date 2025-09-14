@@ -327,7 +327,7 @@ a {
 
 /* /////////////////////карточки////////////// */
 
-.card__content {
+.card {
   margin: 0 auto;
   background-color: #F4F6F8;
   /* width: 1919px; */
