@@ -37,17 +37,26 @@
                     <ul class="header__social-list">
                         <li class="header__social-icon">
                             <a href="#" class="header__social-telegram">
-                                <span class="visually-hidden">icon telegram</span>
+                              <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                <use href="images/sprite.svg#telegram-social"></use>
+                              </svg>
+                                <span class="visually-hidden">ссылка на телеграм</span>
                             </a>
                         </li>
                         <li class="header__social-icon">
                             <a href="#" class="header__social-whatsapp">
-                                <span class="visually-hidden">icon whatsapp</span>
+                              <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                <use href="images/sprite.svg#watsap-social"></use>
+                              </svg>
+                                <span class="visually-hidden">ссылка на ветсап</span>
                             </a>
                         </li>
                         <li class="header__social-icon">
                             <a href="#" class="header__social-youtube">
-                                <span class="visually-hidden">icon youtube</span>
+                              <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                <use href="images/sprite.svg#youtube-social"></use>
+                              </svg>
+                                <span class="visually-hidden">ссылка на ютуб</span>
                             </a>
                         </li>
                     </ul>
@@ -66,7 +75,7 @@
                     <p class="hero__content">
                         Привезем автомобиль под ключ со всеми документами. Подбор автомобиля
                         под любой запрос
-                        <span class="big-text">бесплатно</span>
+                        <span class="hero__big-text">бесплатно</span>
                     </p>
                     <a class="hero__button" href="#">Оставить заявку</a>
                 </div>
@@ -82,21 +91,21 @@
                     </h3>
                     <a class="card__button" href="#">Оставить заявку</a>
                     <ul class="card__section">
-                        <li class="card__shoose img_1">
+                        <li class="card__shoose card__shoose-img-1">
                             <h4 class="card__name">С пробегом</h4>
                             <p class="card__text">
                                 Предлагаем купить автомобиль дешевле до 60%, от рыночной цены на
                                 Авито и Авто.ру
                             </p>
                         </li>
-                        <li class="card__shoose img_2">
+                        <li class="card__shoose card__shoose-img-2">
                             <h4 class="card__name">Новые</h4>
                             <p class="card__text">
                                 Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной
                                 ценына Авито и Авто.ру
                             </p>
                         </li>
-                        <li class="card__shoose img_3">
+                        <li class="card__shoose card__shoose-img-3">
                             <h4 class="card__name">Под ваш бюджет</h4>
                             <p class="card__text">
                                 Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной
@@ -109,16 +118,18 @@
 
             <section class="aboutas">
               <div class="aboutas__wrap">
-                <img src="images/Container_about_1x.png" alt="фото офиса" class="aboatas__img">
+                <img src="images/container-about-1x.png" alt="фото офиса" class="aboatas__img">
                 <div class="aboutas__content">
                   <h2 class="aboutas__title"> О нас </h2>
                   <p class="aboutas__text"> Мы автосалон и официальный партнер крупнейших мировых авто-аукционов: IAA (Insurance Auto Auction), Copart, Manheim.</p>
                   <ul class="aboutas__info">
-                    <li class="abinfo info-1">Работаем без посредников</li>
-                    <li class="abinfo info-2">Успешный опыт 10 лет</li>
-                    <li class="abinfo info-3">Отлаженная логистика</li>
+                    <li class="aboutas__abinfo aboutas__abinfo-info-1">Работаем без посредников</li>
+                    <li class="aboutas__abinfo aboutas__abinfo-info-2">Успешный опыт 10 лет</li>
+                    <li class="aboutas__abinfo aboutas__abinfo-info-3">Отлаженная логистика</li>
                   </ul>
-                  <p class="info-text">Мы берем на себя полное сопровождение сделки до передачи автомобиля в руки клиенту. </p>
+                  <div class="aboutas__frame">
+                    <p class="aboutas__info-text">Мы берем на себя полное сопровождение сделки до передачи автомобиля в руки клиенту. </p>
+                  </div>
                   <a class="aboutas__buttom" href="#">Оставить заявку</a>
                 </div>
               </div>
@@ -132,94 +143,98 @@
                     </a>
                     <div class="shop__content-card">
                         <div class="shop__card">
-                            <img src="images/Rav4.png" alt="изображение авто тойота раф4" class="shop_img">
-                            <a class="avto-title">Toyota RAV4 2022</a>
-                            <div class="text-price">
+                            <img src="images/Rav4.png" alt="изображение авто тойота раф4" class="shop__img">
+                            <a class="shop__avto-title">Toyota RAV4 2022</a>
+                            <div class="shop__text-price">
                                 <div class="shop__strit">
-                                    <span class="card-txt">Пробег </span>
-                                    <span class="card-mean"> 5 700 км </span>
-                                </div>
-                                <div class="shop__strit">
-                                    <span class="card-txt"> Объем двигателя </span>
-                                    <span class="card-mean"> 2.0 </span>
+                                    <span class="shop__strit-card-txt">Пробег </span>
+                                    <span class="shop__strit-card-mean"> 5 700 км </span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt"> Мощность </span>
-                                    <span class="card-mean">149 л.с.</span>
+                                    <span class="shop__strit-card-txt"> Объем двигателя </span>
+                                    <span class="shop__strit-card-mean"> 2.0 </span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt">Коробка</span>
-                                    <span class="card-mean">Автомат</span>
+                                    <span class="shop__strit-card-txt"> Мощность </span>
+                                    <span class="shop__strit-card-mean">149 л.с.</span>
                                 </div>
-                                <div class="shop__price">
-                                    <span class="text-prim">Цена на вторичном рынке в РФ</span>
-                                    <span class="price">3 250 000 ₽</span>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Коробка</span>
+                                    <span class="shop__strit-card-mean">Автомат</span>
                                 </div>
-                                <div class="shop__price">
-                                    <span class="text-prim">Цена автомобиля “под ключ”</span>
-                                    <span class="now-price">2 500 000 ₽</span>
+                                <div class="shop__offer">
+                                  <div class="shop__price">
+                                      <span class="shop__price-text-prim">Цена на вторичном рынке в РФ</span>
+                                      <span class="shop__price-old">3 250 000 ₽</span>
+                                  </div>
+                                  <div class="shop__price">
+                                      <span class="shop__price-text-prim">Цена автомобиля “под ключ”</span>
+                                      <span class="shop__price-now-price">2 500 000 ₽</span>
+                                  </div>
                                 </div>
                             </div>
                             <a class="shop__button" href="#">Оставить заявку</a>
                         </div>
                         <div class="shop__card">
                             <img src="images/audiImage.png" alt="изображени авто ауди ку5" class="shop_img">
-                            <a class="avto-title">Audi Q5 2021</a>
+                            <a class="shop__avto-title">Audi Q5 2021</a>
                             <div class="text-price">
                                 <div class="shop__strit">
-                                    <span class="card-txt">Пробег </span>
-                                    <span class="card-mean"> 5 700 км </span>
+                                    <span class="shop__strit-card-txt">Пробег </span>
+                                    <span class="shop__strit-card-mean"> 5 700 км </span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt"> Объем двигателя </span>
-                                    <span class="card-mean"> 2.0 </span>
+                                    <span class="shop__strit-card-txt"> Объем двигателя </span>
+                                    <span class="shop__strit-card-mean"> 2.0 </span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt"> Мощность </span>
-                                    <span class="card-mean">149 л.с.</span>
+                                    <span class="shop__strit-card-txt"> Мощность </span>
+                                    <span class="shop__strit-card-mean">149 л.с.</span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt">Коробка</span>
-                                    <span class="card-mean">Автомат</span>
+                                    <span class="shop__strit-card-txt">Коробка</span>
+                                    <span class="shop__strit-card-mean">Автомат</span>
                                 </div>
-                                <div class="shop__price">
-                                    <span class="text-prim">Цена на вторичном рынке в РФ</span>
-                                    <span class="price">3 300 000 ₽</span>
-                                </div>
-                                <div class="shop__price">
-                                    <span class="text-prim">Цена автомобиля “под ключ”</span>
-                                    <span class="now-price">2 700 000 ₽</span>
+                                <div class="shop__offer">
+                                  <div class="shop__price">
+                                      <span class="shop__price-text-prim">Цена на вторичном рынке в РФ</span>
+                                      <span class="shop__price-old">3 300 000 ₽</span>
+                                  </div>
+                                  <div class="shop__price">
+                                      <span class="shop__price-text-prim">Цена автомобиля “под ключ”</span>
+                                      <span class="shop__price-now-price">2 700 000 ₽</span>
+                                  </div>
                                 </div>
                             </div>
                             <a class="shop__button" href="#">Оставить заявку</a>
                         </div>
                         <div class="shop__card">
                             <img src="images/HondaImage.png" alt="изображение авто хонда црв" class="shop_img">
-                            <a class="avto-title">Honda CR-V 2021</a>
-                            <div class="text-price">
+                            <a class="shop__avto-title">Honda CR-V 2021</a>
+                            <div class="shop__text-price">
                                 <div class="shop__strit">
-                                    <span class="card-txt">Пробег </span>
-                                    <span class="card-mean"> 5 700 км </span>
+                                    <span class="shop__strit-card-txt">Пробег </span>
+                                    <span class="shop__strit-card-mean"> 5 700 км </span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt"> Объем двигателя </span>
-                                    <span class="card-mean"> 2.0 </span>
+                                    <span class="shop__strit-card-txt"> Объем двигателя </span>
+                                    <span class="shop__strit-card-mean"> 2.0 </span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt"> Мощность </span>
-                                    <span class="card-mean">149 л.с.</span>
+                                    <span class="shop__strit-card-txt"> Мощность </span>
+                                    <span class="shop__strit-card-mean">149 л.с.</span>
                                 </div>
                                 <div class="shop__strit">
-                                    <span class="card-txt">Коробка</span>
-                                    <span class="card-mean">Автомат</span>
+                                    <span class="shop__strit-card-txt">Коробка</span>
+                                    <span class="shop__strit-card-mean">Автомат</span>
                                 </div>
                                     <div class="shop__price">
-                                    <span class="text-prim">Цена на вторичном рынке в РФ</span>
-                                    <span class="price">2 900 000 ₽</span>
+                                    <span class="shop__price-text-prim">Цена на вторичном рынке в РФ</span>
+                                    <span class="shop__price-old">2 900 000 ₽</span>
                                 </div>
                                 <div class="shop__price">
-                                    <span class="text-prim">Цена автомобиля “под ключ”</span>
-                                    <span class="now-price">2 300 000 ₽</span>
+                                    <span class="shop__price-text-prim">Цена автомобиля “под ключ”</span>
+                                    <span class="shop__price-now-price">2 300 000 ₽</span>
                                 </div>
                             </div>
                             <a class="shop__button" href="#">Оставить заявку</a>
@@ -232,8 +247,8 @@
               <div class="advice__wrap">
                 <div class="advice__content">
                   <div class="advice__text">
-                    <h2 class="advice__title">Мы советуем подбирать автомобиль с бюджетом от <strong class="prim">1,3 млн</strong></h2>
-                    <p class="info-advice">c учетом расходов на доставку, растаможку и наши услуги.</p>
+                    <h2 class="advice__title">Мы советуем подбирать автомобиль с бюджетом от <strong class="advice__prim">1,3 млн</strong></h2>
+                    <p class="advice__info">c учетом расходов на доставку, растаможку и наши услуги.</p>
                     <a class="aboutas__buttom" href="#">Оставить заявку</a>
                   </div>
                   <img src="images/Image_toyta_1x.png" alt="изображение авто тойота" class="advice__img">
