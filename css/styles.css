@@ -802,7 +802,7 @@ a {
   width: 63px;
   height: 63px;
   position: absolute;
-  left: 210px;
+  right: 1300px;
   top: 575px;
   transform: rotate(-180deg);
   z-index: 3;
