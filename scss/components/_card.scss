@@ -6,35 +6,38 @@
 .card__wrap {
   width: 1280px;
   margin: 0 auto;
-  padding-bottom: 119px;
+  padding: 110px 0 119px 0;
 }
 
 .card__title {
-  margin: 0 auto;
-  padding-top: 113px;
+//   margin: 0 auto;
+//   padding-top: 113px;
+  margin-left: 119px;
   max-width: 1014px;
   font-size: 44px;
   line-height: 54px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 800;
   text-align: center;
+//   line-height: 1.23;
   color: var(--main-color-black);
 }
 
 .card__offer {
-  margin: 40px;
-  font-family: "Inter" Arial, Helvetica, sans-serif;
+//   margin: 40px;
+  padding: 40px 20px 30px 155px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  text-align: center;
+//   text-align: center;
   color: var(--main-color-black);
 }
 
 .card__button {
   display: flex;
-  margin: 0 auto;
-  padding: 14px 40px 14px 40px;
+  margin: 0 0 0 500px;
+  padding: 17px 40px 14px 42px;
   box-sizing: border-box;
   border: none;
   width: 235px;
@@ -52,9 +55,10 @@
 .card__section {
   display: flex;
   position: relative;
-  margin-top: 40px;
-  justify-content: center;
-  gap: 25px;
+//   max-width: 1280px;
+  padding-top: 40px;
+//   justify-content: center;
+  gap: 20px;
 
 }
 
@@ -84,8 +88,8 @@
   font-size: 36px;
   line-height: 44px;
   color: var(--main-color-black);
-  padding-left: 37px;
-  padding-top: 21px;
+  padding-left: 25px;
+  padding-top: 25px;
 }
 
 .card__text {
