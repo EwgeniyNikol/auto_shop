@@ -20,7 +20,7 @@
 }
 
 .aboutas__title {
-  margin-top: 52px;
+  padding-top: 60px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -31,7 +31,7 @@
 
 .aboutas__text {
   width: 524px;
-  margin-top: 12px;
+  padding-top: 12px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -43,7 +43,7 @@
 .aboutas__info{
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 8px;
   width: 500px;
 }
 
@@ -53,7 +53,7 @@
   font-weight: 500;
   font-size: 20px;
   position: relative;
-  margin-top: 36px;
+  padding-top: 36px;
   padding-left: 76px;
   cursor: pointer;
 }
@@ -65,7 +65,7 @@
 .aboutas__abinfo::before {
   position: absolute;
   left: 0;
-  top: -12px;
+  top: 22px;
   background-color: var(--main-color-red);;
   content: "";
   width: 52px;
@@ -115,7 +115,7 @@
   width: 435px;
   line-height: 24px;
   /* text-align: center; */
-  padding: 15px 0 0 20px; 
+  padding: 10px 0 0 20px; 
 }
 
 .aboutas__buttom {

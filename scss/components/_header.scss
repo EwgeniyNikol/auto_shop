@@ -190,9 +190,9 @@ body {
   // text-decoration: underline;
 }
 
-.header__item:last-child {
-  margin-right: 0;
-}
+// .header__item:last-child {
+//   margin-right: 0;
+// }
 
 .header__address {
   display: flex;
@@ -207,7 +207,7 @@ body {
 }
 
 .header__social-icon {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 
 .header__social-icon:hover {
@@ -215,7 +215,7 @@ body {
 }
 
 .header__social-icon:last-child {
-  margin-right: 0;
+  margin-right: 12px;
 }
 .social-icon {
   // fill: #F50E30;
@@ -262,7 +262,7 @@ body {
 .header__tel {
   display: flex;
   flex-direction: column;
-  padding-left: 26px;
+  padding: 1px 7px 0 20px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   color: var(--main-color-black);
