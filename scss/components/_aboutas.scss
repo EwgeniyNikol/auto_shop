@@ -1,13 +1,14 @@
 .aboutas__wrap {
   margin-top: 63px;
   display: flex;
+  width: 0 auto;
 }
 
-.aboatas__img {
-  /* max-width: 908px; */
+.aboutas__img {
+  // max-width: 908px; 
   flex: 1;
   max-width: 50%;
-  height: auto;
+  // height: auto;
   object-fit: cover;
   padding-right: 52px;
 }

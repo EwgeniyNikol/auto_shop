@@ -1,5 +1,5 @@
 .advice__wrap {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -12,6 +12,7 @@
 
 .advice__text {
   width: 586px;
+  position: relative;
 }
 
 .advice__title {
@@ -36,6 +37,7 @@
   color: #000000;
   padding-top: 20px;
   width: 450px;
+  position: relative;
 }
 
 .advice__img {
