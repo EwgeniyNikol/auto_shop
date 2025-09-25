@@ -12,6 +12,7 @@
     color: #000000;
     padding-top: 100px;
     width: 600px;
+    position: relative;
 }
 
 .advert__frame {
@@ -20,6 +21,8 @@
     padding-top: 20px;
     margin-bottom: 20px;
     align-items: flex-start;
+    
+    // border: 2px solid red;
 }
 
 .advert__info {
@@ -62,8 +65,13 @@
     display: flex;
     gap: 24px;
     margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
 }
 
+.advert__img1 {
+    z-index: 1;
+}
 .advert__buttom {
     display: flex;
     margin-bottom: 45px;
@@ -80,4 +88,32 @@
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
+}
+
+.advert__content::before {
+    background-image: url("../images/strelka-right.png");
+    content: "";
+    background-repeat: no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    right: -27px;
+    top: 122px;
+    z-index: 2;
+}
+
+.advert__title::before {
+    background-image: url("../images/strelka-right.png");
+    content: "";
+    background-repeat: no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    right: 565px;
+    top: 580px;
+    transform: rotate(-180deg);
+    z-index: 2;
+}
+.advert__buttom:hover {
+  background-color: #c73713;
 }

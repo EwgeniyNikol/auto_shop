@@ -877,6 +877,10 @@ a {
   white-space: nowrap;
 }
 
+.advice__buttom:hover {
+  background-color: #c73713;
+}
+
 .reviws {
   background-color: #F4F6F8;
   position: relative;
@@ -1053,6 +1057,10 @@ a {
   margin-bottom: 100px;
 }
 
+.reviws__buttom:hover {
+  background-color: #c73713;
+}
+
 .advert__wrap {
   width: 1280px;
   margin: 0 auto;
@@ -1067,6 +1075,7 @@ a {
   color: #000000;
   padding-top: 100px;
   width: 600px;
+  position: relative;
 }
 
 .advert__frame {
@@ -1117,6 +1126,12 @@ a {
   display: flex;
   gap: 24px;
   margin-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.advert__img1 {
+  z-index: 1;
 }
 
 .advert__buttom {
@@ -1135,4 +1150,139 @@ a {
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
+}
+
+.advert__content::before {
+  background-image: url("../images/strelka-right.png");
+  content: "";
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  right: -27px;
+  top: 122px;
+  z-index: 2;
+}
+
+.advert__title::before {
+  background-image: url("../images/strelka-right.png");
+  content: "";
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  right: 565px;
+  top: 580px;
+  transform: rotate(-180deg);
+  z-index: 2;
+}
+
+.advert__buttom:hover {
+  background-color: #c73713;
+}
+
+.team {
+  background-color: #F4F6F8;
+}
+
+.team__wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.team__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.team__title-info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  padding-top: 28px;
+}
+
+.team_board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+
+.team__card {
+  width: 411px;
+  height: 496px;
+  filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.08));
+  padding: 300px 0 0 32px;
+}
+
+.team__card-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.team__card-job {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 8px;
+  margin-bottom: 24px;
+}
+
+.team__tel-number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F50E30;
+}
+
+.team__social-list {
+  width: 84px;
+  display: flex;
+  padding-top: 16px;
+}
+
+.team__card-img-1 {
+  background-image: url("../images/pogosyn.png");
+}
+
+.team__card-img-2 {
+  background-image: url("../images/pavlov.png");
+}
+
+.team__card-img-3 {
+  background-image: url("../images/aroyn.png");
+}
+
+.team__card-img-4 {
+  background-image: url("../images/nikol.png");
+}
+
+.team__card-img-5 {
+  background-image: url("../images/kuznecov.png");
+}
+
+.team__card-img-6 {
+  background-image: url("../images/schax.png");
 }/*# sourceMappingURL=main.css.map */
