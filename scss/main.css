@@ -254,7 +254,7 @@ a {
 }
 
 .header__tel-number:hover {
-  text-decoration: underline;
+  color: #a3a3a3;
 }
 
 .hero__wrap {
