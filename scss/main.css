@@ -130,7 +130,7 @@ legend {
   font-display: swap;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "inter", sans-serif;
   src: local("InterRegular"), url("../font/Inter-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -141,9 +141,10 @@ legend {
   --main-color-black: #000000;
   --main-color-grey: #a3a3a3;
   --main-color-red: #f50e30;
+  --font-inter-sanserif: "Inter", sans-serif;
 }
 
-/* var(--main-color-red); */
+/* var(--font-inter-sanserif); */
 body {
   background-color: var(--main-color-white);
   overflow-x: hidden;
@@ -164,7 +165,7 @@ body {
 .header__list {
   display: flex;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 400;
   margin-left: 53px;
   width: 646px;
@@ -173,10 +174,6 @@ body {
 
 .header__link {
   color: var(--main-color-black);
-}
-
-.header__item {
-  /* margin-right: 40px; */
 }
 
 .header__address {
@@ -200,33 +197,6 @@ body {
 
 .header__social-icon:last-child {
   margin-right: 12px;
-}
-
-.header__social-telegram {
-  /* display: block; */
-  /* background-image: url("../images/Vertical_container.png"); */
-  /* background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 30px;
-  height: 30px; */
-}
-
-.header__social-whatsapp {
-  /* display: block; */
-  /* background-image: url("../images/Vertical_container _Vsap.png"); */
-  /* background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 30px;
-  height: 30px; */
-}
-
-.header__social-youtube {
-  /* display: block;
-  background-image: url("../images/Vertical_containe_yotbe.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 30px;
-  height: 30px; */
 }
 
 .visually-hidden {
@@ -279,7 +249,7 @@ a {
 .hero__title {
   max-width: 672px;
   font-size: 52px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 800;
   margin-bottom: 25px;
 }
@@ -288,7 +258,7 @@ a {
   max-width: 600px;
   font-size: 20px;
   line-height: 32px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 500;
   margin-bottom: 44px;
 }
@@ -306,7 +276,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 24px;
-  font-family: "inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 700;
   padding: 18px 54px;
   margin-bottom: 79px;
@@ -328,7 +298,7 @@ a {
   max-width: 1014px;
   font-size: 44px;
   line-height: 54px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 800;
   text-align: center;
   color: var(--main-color-black);
@@ -336,7 +306,7 @@ a {
 
 .card__offer {
   padding: 40px 20px 30px 155px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -355,7 +325,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 20px;
-  font-family: "inter" Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
@@ -388,7 +358,7 @@ a {
 }
 
 .card__name {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -399,7 +369,7 @@ a {
 }
 
 .card__text {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -464,7 +434,7 @@ a {
 
 .aboutas__title {
   padding-top: 60px;
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -475,7 +445,7 @@ a {
 .aboutas__text {
   width: 524px;
   padding-top: 12px;
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -550,7 +520,7 @@ a {
 }
 
 .aboutas__info-text {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -596,7 +566,7 @@ a {
 }
 
 .shop__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 800;
   font-size: 44px;
@@ -607,7 +577,7 @@ a {
 }
 
 .shop__text {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -641,7 +611,7 @@ a {
 }
 
 .shop__avto-title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -655,7 +625,7 @@ a {
 }
 
 .shop__strit-card-txt {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -667,7 +637,7 @@ a {
 }
 
 .shop__strit-card-mean {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -695,7 +665,7 @@ a {
 
 .shop__price-old {
   justify-content: space-between;
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -703,7 +673,7 @@ a {
 }
 
 .shop__price-text-prim {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -723,7 +693,7 @@ a {
 }
 
 .shop__price-now-price {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -739,7 +709,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 24px;
-  font-family: "inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 700;
   padding: 14px 0px 14px 90px;
   margin: 12px auto;
@@ -827,7 +797,7 @@ a {
 }
 
 .advice__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -871,7 +841,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 20px;
-  font-family: "inter" Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
@@ -891,7 +861,7 @@ a {
 }
 
 .reviws__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -927,7 +897,7 @@ a {
 }
 
 .reviws__info {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1028,7 +998,7 @@ a {
 }
 
 .reviws__text-info {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -1050,7 +1020,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 18px;
-  font-family: "inter" Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
@@ -1067,7 +1037,7 @@ a {
 }
 
 .advert__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -1087,7 +1057,7 @@ a {
 }
 
 .advert__info {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1105,7 +1075,7 @@ a {
 }
 
 .advert__tex-info {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1115,7 +1085,7 @@ a {
 }
 
 .advert__prim {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -1146,7 +1116,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 20px;
-  font-family: "inter" Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
@@ -1191,7 +1161,7 @@ a {
 }
 
 .team__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 800;
   font-size: 44px;
@@ -1203,7 +1173,7 @@ a {
 }
 
 .team__title-info {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1229,7 +1199,7 @@ a {
 }
 
 .team__card-title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -1238,7 +1208,7 @@ a {
 }
 
 .team__card-job {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1249,7 +1219,7 @@ a {
 }
 
 .team__tel-number {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1285,4 +1255,316 @@ a {
 
 .team__card-img-6 {
   background-image: url("../images/schax.png");
+}
+
+.chime {
+  max-width: 1920px;
+  background-image: url("../images/gora.png");
+  padding-top: 127px;
+  padding-bottom: 100px;
+}
+
+.chime__wrap {
+  width: 1280px;
+  padding-left: 19px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 45px;
+}
+
+.chime__case {
+  max-width: 459px;
+  padding: 40px 32px 0 32px;
+  background: white;
+  border-radius: 10px;
+}
+
+.chime__case-title {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.chime__case-text {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+.chime__input {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 17px 20px;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #CCCCCC;
+}
+
+.chime__button {
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--main-color-red);
+  color: var(--main-color-white);
+  font-size: 20px;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  padding: 18px 54px;
+  margin-bottom: 8px;
+}
+
+.chime__button:hover {
+  background-color: #c73713;
+}
+
+.chime__checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.chime__input-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.chime__checkbox:before {
+  content: "";
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin: 6px 0;
+}
+
+.chime__checkbox:after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  width: 6px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.chime__input-checkbox:checked + .chime__checkbox:before {
+  background: #000000;
+  border-color: #000000;
+}
+
+.chime__input-checkbox:checked + .chime__checkbox:after {
+  opacity: 1;
+}
+
+.chime__checkbox-text {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 340px;
+}
+
+.chime__mesange {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 24px;
+}
+
+.chime__social {
+  padding-top: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.chime__social-border {
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: 2px solid red;
+  margin-bottom: 50px;
+  padding: 9px 16px 9px 15px;
+  width: 137px;
+}
+
+.chime__social-icon {
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.chime__social-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.chime__services {
+  width: 100%;
+  padding: 40px 0 0 32px;
+  background: white;
+  border-radius: 10px;
+}
+
+.chime__services-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #000000;
+  width: 620px;
+}
+
+.chime__info {
+  padding-top: 22px;
+  max-width: 545px;
+}
+
+.chime__abinfo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  padding-left: 52px;
+  padding-top: 24px;
+  position: relative;
+}
+
+.chime__abinfo::before {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 26px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 36px 36px;
+  cursor: pointer;
+}
+
+.chime__abinfo-info-1::before {
+  background-image: url(../images/galochka.png);
+}
+
+.footer {
+  margin: 0 auto;
+  background-color: #F4F6F8;
+}
+
+.footer__wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.footer__title {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #000000;
+  padding-top: 100px;
+}
+
+.footer__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+}
+
+.footer__adress, .footer__tel, .footer__time {
+  margin-bottom: 40px;
+  padding-top: 56px;
+}
+
+.footer_name {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  display: block;
+}
+
+.footer__social-icon {
+  margin-right: 3px;
+  fill: red;
+}
+
+.footer__social-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer_email {
+  margin-bottom: 42px;
+}
+
+.footer__map {
+  margin-bottom: 55px;
+}
+
+.footer__document {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 125px;
+  padding-bottom: 43px;
+}
+
+.footer__link {
+  font-family: var(--font-inter-sanserif);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: underline !important;
+  position: relative;
+  color: rgba(0, 0, 0, 0.3);
+  text-underline-offset: 4px;
 }/*# sourceMappingURL=main.css.map */

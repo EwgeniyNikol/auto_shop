@@ -136,7 +136,7 @@ legend {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "inter", sans-serif;
   src: local("InterRegular"), url("../font/Inter-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -148,8 +148,9 @@ legend {
   --main-color-black: #000000;
   --main-color-grey: #a3a3a3;
   --main-color-red: #f50e30;
+  --font-inter-sanserif: "Inter", sans-serif;
 }
-/* var(--main-color-red); */
+/* var(--font-inter-sanserif); */
 
 body {
   background-color: var(--main-color-white);
@@ -171,7 +172,7 @@ body {
 .header__list {
   display: flex;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 400;
   margin-left: 53px;
   width: 646px;
@@ -181,18 +182,6 @@ body {
 .header__link {
   color: var(--main-color-black);
 }
-
-.header__item {
-  /* margin-right: 40px; */
-}
-
-.header__item:hover {
-  // text-decoration: underline;
-}
-
-// .header__item:last-child {
-//   margin-right: 0;
-// }
 
 .header__address {
   display: flex;
@@ -217,36 +206,36 @@ body {
 .header__social-icon:last-child {
   margin-right: 12px;
 }
-.social-icon {
-  // fill: #F50E30;
-}
+// .social-icon {
+//   // fill: #F50E30;
+// }
 
-.header__social-telegram {
-  /* display: block; */
-  /* background-image: url("../images/Vertical_container.png"); */
-  /* background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 30px;
-  height: 30px; */
-}
+// .header__social-telegram {
+//   /* display: block; */
+//   /* background-image: url("../images/Vertical_container.png"); */
+//   /* background-repeat: no-repeat;
+//   background-size: 100% 100%;
+//   width: 30px;
+//   height: 30px; */
+// }
 
-.header__social-whatsapp {
-  /* display: block; */
-  /* background-image: url("../images/Vertical_container _Vsap.png"); */
-  /* background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 30px;
-  height: 30px; */
-}
+// .header__social-whatsapp {
+//   /* display: block; */
+//   /* background-image: url("../images/Vertical_container _Vsap.png"); */
+//   /* background-repeat: no-repeat;
+//   background-size: 100% 100%;
+//   width: 30px;
+//   height: 30px; */
+// }
 
-.header__social-youtube {
-  /* display: block;
-  background-image: url("../images/Vertical_containe_yotbe.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 30px;
-  height: 30px; */
-}
+// .header__social-youtube {
+//   /* display: block;
+//   background-image: url("../images/Vertical_containe_yotbe.png");
+//   background-repeat: no-repeat;
+//   background-size: 100% 100%;
+//   width: 30px;
+//   height: 30px; */
+// }
 
 .visually-hidden {
   position: absolute;
@@ -299,7 +288,7 @@ a {
 .hero__title {
   max-width: 672px;
   font-size: 52px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 800;
   margin-bottom: 25px;
 }
@@ -308,7 +297,7 @@ a {
   max-width: 600px;
   font-size: 20px;
   line-height: 32px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 500;
   margin-bottom: 44px;
 }
@@ -326,7 +315,7 @@ a {
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 24px;
-  font-family: "inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 700;
   padding: 18px 54px;
   margin-bottom: 79px;

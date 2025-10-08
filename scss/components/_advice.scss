@@ -16,7 +16,7 @@
 }
 
 .advice__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);;
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -57,7 +57,7 @@
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 20px;
-  font-family: "inter" Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;

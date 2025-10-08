@@ -12,7 +12,7 @@
 }
 
 .shop__title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 800;
   font-size: 44px;
@@ -23,7 +23,7 @@
 }
 
 .shop__text {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -57,7 +57,7 @@
 }
 
 .shop__avto-title {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -71,7 +71,7 @@
 }
 
 .shop__strit-card-txt {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +83,7 @@
 }
 
 .shop__strit-card-mean {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -111,7 +111,7 @@
 
 .shop__price-old {
   justify-content: space-between;
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -119,7 +119,7 @@
 }
 
 .shop__price-text-prim {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -139,7 +139,7 @@
 }
 
 .shop__price-now-price {
-  font-family: "Inter";
+  font-family: var(--font-inter-sanserif);
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -155,7 +155,7 @@
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 24px;
-  font-family: "inter", sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 700;
   padding: 14px 0px 14px 90px;
   margin: 12px auto;

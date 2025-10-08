@@ -10,7 +10,7 @@
     // max-width: 1300px;
 }
 .reviws__title {
-    font-family: 'Inter';
+    font-family: var(--font-inter-sanserif);
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -48,7 +48,7 @@
 
 
 .reviws__info {
-    font-family: 'Inter';
+    font-family: var(--font-inter-sanserif);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -145,7 +145,7 @@
 }
 
 .reviws__text-info {
-    font-family: 'Inter';
+    font-family: var(--font-inter-sanserif);
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -168,7 +168,7 @@
   background-color: var(--main-color-red);
   color: var(--main-color-white);
   font-size: 18px;
-  font-family: "inter" Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter-sanserif);
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
