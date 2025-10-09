@@ -192,35 +192,21 @@
   cursor: pointer;
 }
 
-.shop__title::before {
-  background-image: url("../images/polosa-red.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: 696px;
-  top: 905px;
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 20px;
 }
 
-.shop__text::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: -27px;
-  top: 815px;
+.carousel__box {
+    width: 100px;
+    height: 4px;
+    background-color: #DCDEE0;
 }
 
-.shop__content-card::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: 480px;
-  top: 767px;
+.main-box {
+    background-color: #f50e30 !important;
 }
+

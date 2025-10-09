@@ -150,7 +150,7 @@ legend {
   --main-color-red: #f50e30;
   --font-inter-sanserif: "Inter", sans-serif;
 }
-/* var(--font-inter-sanserif); */
+/* var(--main-color-red); */
 
 body {
   background-color: var(--main-color-white);
@@ -206,36 +206,6 @@ body {
 .header__social-icon:last-child {
   margin-right: 12px;
 }
-// .social-icon {
-//   // fill: #F50E30;
-// }
-
-// .header__social-telegram {
-//   /* display: block; */
-//   /* background-image: url("../images/Vertical_container.png"); */
-//   /* background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   width: 30px;
-//   height: 30px; */
-// }
-
-// .header__social-whatsapp {
-//   /* display: block; */
-//   /* background-image: url("../images/Vertical_container _Vsap.png"); */
-//   /* background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   width: 30px;
-//   height: 30px; */
-// }
-
-// .header__social-youtube {
-//   /* display: block;
-//   background-image: url("../images/Vertical_containe_yotbe.png");
-//   background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   width: 30px;
-//   height: 30px; */
-// }
 
 .visually-hidden {
   position: absolute;

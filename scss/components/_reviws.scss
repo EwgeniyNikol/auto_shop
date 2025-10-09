@@ -58,7 +58,7 @@
     padding-right: 130px;
     // padding-left: 200px;
     padding-top: 18px;
-    padding-bottom: 132px;
+    padding-bottom: 28px;
 }
 .reviws::before {
   background-image: url("../images/strelka-right.png");
@@ -97,45 +97,13 @@
   z-index: 3;
   cursor: pointer;
 }
-.reviws__wrap::before {
-  background-image: url("../images/polosa-red.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: 732px;
-  top: 681px;
-}
-.advice__text::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: -50px;
-  top: 1138px;
-  z-index: 3;
-}
-
-.advice__info::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: -290px;
-  top: 976px;
-  z-index: 3;
-}
 
 .reviws__text {
     width: 1280px;
     display: flex;
     gap: 77px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .reviws__img3 {
@@ -176,6 +144,12 @@
 
 }
 .reviws__buttom:hover {
-  background-color: #c73713;
+  background-color: var(--main-color-red);
 }
 
+.reviws__carousel {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  // padding-top: 10px;
+}

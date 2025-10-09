@@ -144,7 +144,7 @@ legend {
   --font-inter-sanserif: "Inter", sans-serif;
 }
 
-/* var(--font-inter-sanserif); */
+/* var(--main-color-red); */
 body {
   background-color: var(--main-color-white);
   overflow-x: hidden;
@@ -513,7 +513,7 @@ a {
 .aboutas__frame {
   width: 488px;
   height: 72px;
-  border: 2px solid red;
+  border: 2px solid var(--main-color-red);
   margin-top: 40px;
   display: flex;
   border-radius: 15px;
@@ -746,37 +746,21 @@ a {
   cursor: pointer;
 }
 
-.shop__title::before {
-  background-image: url("../images/polosa-red.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: 696px;
-  top: 905px;
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 20px;
 }
 
-.shop__text::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
+.carousel__box {
   width: 100px;
   height: 4px;
-  position: absolute;
-  right: -27px;
-  top: 815px;
+  background-color: #DCDEE0;
 }
 
-.shop__content-card::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: 480px;
-  top: 767px;
+.main-box {
+  background-color: #f50e30 !important;
 }
 
 .advice__wrap {
@@ -785,7 +769,7 @@ a {
 }
 
 .advice__content {
-  margin: 95px 0 100px 0;
+  margin: 70px 0 100px 0;
   padding-left: 60px;
   display: flex;
   justify-content: space-between;
@@ -806,7 +790,7 @@ a {
 }
 
 .advice__prim {
-  color: #F50E30;
+  color: var(--main-color-red);
 }
 
 .advice__info {
@@ -848,7 +832,7 @@ a {
 }
 
 .advice__buttom:hover {
-  background-color: #c73713;
+  background-color: var(--main-color-red);
 }
 
 .reviws {
@@ -906,7 +890,7 @@ a {
   text-align: center;
   padding-right: 130px;
   padding-top: 18px;
-  padding-bottom: 132px;
+  padding-bottom: 28px;
 }
 
 .reviws::before {
@@ -949,46 +933,12 @@ a {
   cursor: pointer;
 }
 
-.reviws__wrap::before {
-  background-image: url("../images/polosa-red.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: 732px;
-  top: 681px;
-}
-
-.advice__text::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: -50px;
-  top: 1138px;
-  z-index: 3;
-}
-
-.advice__info::before {
-  background-image: url("../images/polosa-wite.png");
-  content: "";
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 4px;
-  position: absolute;
-  right: -290px;
-  top: 976px;
-  z-index: 3;
-}
-
 .reviws__text {
   width: 1280px;
   display: flex;
   gap: 77px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .reviws__img3 {
@@ -1028,7 +978,13 @@ a {
 }
 
 .reviws__buttom:hover {
-  background-color: #c73713;
+  background-color: var(--main-color-red);
+}
+
+.reviws__carousel {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .advert__wrap {
@@ -1188,7 +1144,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding-top: 40px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .team__card {
@@ -1224,7 +1180,7 @@ a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #F50E30;
+  color: var(--main-color-red);
 }
 
 .team__social-list {
@@ -1535,7 +1491,7 @@ a {
 
 .footer__social-icon {
   margin-right: 3px;
-  fill: red;
+  fill: var(--main-color-red);
 }
 
 .footer__social-icon:hover {

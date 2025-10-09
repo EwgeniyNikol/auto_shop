@@ -35,7 +35,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     padding-top: 40px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .team__card {
@@ -71,7 +71,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #F50E30;
+    color: var(--main-color-red);
 }
 
 .team__social-list {

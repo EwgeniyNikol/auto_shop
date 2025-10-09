@@ -4,7 +4,7 @@
 }
 
 .advice__content {
-  margin: 95px 0 100px 0;
+  margin: 70px 0 100px 0;
   padding-left: 60px;
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@
 }
 
 .advice__prim {
-  color: #F50E30;
+  color: var(--main-color-red);
 }
 
 .advice__info {
@@ -63,5 +63,5 @@
   white-space: nowrap;
 }
 .advice__buttom:hover {
-  background-color: #c73713;
+  background-color: var(--main-color-red);
 }
