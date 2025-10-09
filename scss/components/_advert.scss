@@ -20,9 +20,7 @@
     justify-content: space-between;
     padding-top: 20px;
     margin-bottom: 20px;
-    align-items: flex-start;
-    
-    // border: 2px solid red;
+    align-items: flex-start;   
 }
 
 .advert__info {
@@ -72,6 +70,7 @@
 .advert__img1 {
     z-index: 1;
 }
+
 .advert__buttom {
     display: flex;
     margin-bottom: 45px;
@@ -114,6 +113,7 @@
     transform: rotate(-180deg);
     z-index: 2;
 }
+
 .advert__buttom:hover {
   background-color: #c73713;
 }

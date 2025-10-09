@@ -1,14 +1,12 @@
 .reviws {
     background-color: #F4F6F8;
     position: relative;
-    // padding: 0 30px;
 }
 
-.reviws__wrap {
-    // border: 2px solid red;
-    margin: 0 auto;
-    // max-width: 1300px;
+.reviws__wrap {   
+    margin: 0 auto;  
 }
+
 .reviws__title {
     font-family: var(--font-inter-sanserif);
     font-style: normal;
@@ -42,10 +40,8 @@
 
 .reviws__img2 {
     width: 737px;
-   // height: 404px;
-   object-fit: contain;
+    object-fit: contain;
 }
-
 
 .reviws__info {
     font-family: var(--font-inter-sanserif);
@@ -56,10 +52,10 @@
     color: #000000;
     text-align: center;
     padding-right: 130px;
-    // padding-left: 200px;
     padding-top: 18px;
     padding-bottom: 28px;
 }
+
 .reviws::before {
   background-image: url("../images/strelka-right.png");
   content: "";
@@ -72,6 +68,7 @@
   z-index: 3;
   cursor: pointer;
 }
+
 .reviws__title::before {
   background-image: url("../images/strelka-right.png");
   content: "";
@@ -85,6 +82,7 @@
   z-index: 3;
   cursor: pointer;
 }
+
 .reviws__content::before {
   background-image: url("../images/button-ytube.png");
   content: "";
@@ -143,6 +141,7 @@
   margin-bottom: 100px;
 
 }
+
 .reviws__buttom:hover {
   background-color: var(--main-color-red);
 }
@@ -151,5 +150,5 @@
   display: flex;
   justify-content: center;
   gap: 8px;
-  // padding-top: 10px;
+  
 }

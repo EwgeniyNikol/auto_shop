@@ -45,6 +45,7 @@
   object-fit: cover;
   object-position: center;
 }
+
 .advice__buttom {
   display: flex;
   margin: 38px 0 0 4px;
@@ -62,6 +63,7 @@
   text-align: center;
   white-space: nowrap;
 }
+
 .advice__buttom:hover {
   background-color: var(--main-color-red);
 }
