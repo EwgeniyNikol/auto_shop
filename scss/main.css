@@ -824,7 +824,7 @@ a {
 }
 
 .advice__buttom:hover {
-  background-color: var(--main-color-red);
+  background-color: #c73713;
 }
 
 .reviws {
@@ -970,7 +970,7 @@ a {
 }
 
 .reviws__buttom:hover {
-  background-color: var(--main-color-red);
+  background-color: #c73713;
 }
 
 .reviws__carousel {
