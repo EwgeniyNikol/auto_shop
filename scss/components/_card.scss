@@ -1,0 +1,155 @@
+@use "./variables" as v; 
+@use "./mixins" as m;
+
+.card {
+  margin: 0 auto;
+  background-color: v.$main-color-background;
+}
+
+.card__wrap {
+  @include m.wrapper-desktop;
+  padding-top: 113px;
+  padding-bottom: 119px;
+}
+
+.card__title {
+  max-width: 1014px;
+  margin: 0 auto 40px auto;
+  font-weight: 800;
+  line-height: 54px;
+  text-align: center;
+  @include m.font44-title;
+}
+
+.card__offer {
+  margin: 0 auto 33px auto;
+  font-family: v.$font-inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: v.$main-color-black;
+  text-align: center;
+}
+
+.card__button {
+  display: block;
+  width: 235px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  font-family: v.$font-inter;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card__section {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.card__shoose {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 411px;
+  background: v.$main-color-white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card__name {
+  padding-left: 20px;
+  padding-top: 25px;
+  font-family: v.$font-inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: v.$main-color-black;
+}
+
+.card__text {
+  width: 400px;
+  padding: 24px 78px 91px 18px;
+  font-family: v.$font-inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.card__shoose-img-1::before {
+  position: absolute;
+  right: 45px;
+  top: 165px;
+  width: 95px;
+  height: 85px;
+  background-image: url("../images/image_mers.png");
+  background-image: -webkit-image-set(
+    url("../images/image_mers.avif") 1x,
+    url("../images/image_mers@2x.avif") 2x,
+    url("../images/image_mers.webp") 1x,
+    url("../images/image_mers@2x.webp") 2x
+  );
+  background-image: image-set(
+    url("../images/image_mers.avif") 1x,
+    url("../images/image_mers@2x.avif") 2x,
+    url("../images/image_mers.webp") 1x,
+    url("../images/image_mers@2x.webp") 2x
+  );
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.card__shoose-img-2::before {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+  width: 225px;
+  height: 120px;
+  background-image: url("../images/image_avtored.png");
+  background-image: -webkit-image-set(
+    url("../images/image_avtored.avif") 1x,
+    url("../images/image_avtored@2x.avif") 2x,
+    url("../images/image_avtored.webp") 1x,
+    url("../images/image_avtored@2x.webp") 2x
+  );
+  background-image: image-set(
+    url("../images/image_avtored.avif") 1x,
+    url("../images/image_avtored@2x.avif") 2x,
+    url("../images/image_avtored.webp") 1x,
+    url("../images/image_avtored@2x.webp") 2x
+  );
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.card__shoose-img-3::before {
+  position: absolute;
+  right: 20px;
+  top: 120px;
+  width: 225px;
+  height: 130px;
+  background-image: url("../images/crivay.png");
+  background-image: -webkit-image-set(
+    url("../images/crivay.avif") 1x,
+    url("../images/image_crivay@2x.avif") 2x,
+    url("../images/crivay.webp") 1x,
+    url("../images/image_crivay@2x.webp") 2x
+  );
+  background-image: image-set(
+    url("../images/crivay.avif") 1x,
+    url("../images/image_crivay@2x.avif") 2x,
+    url("../images/crivay.webp") 1x,
+    url("../images/image_crivay@2x.webp") 2x
+  );
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.card__button:hover,
+.hero__button:hover {
+  background-color: v.$main-color-hover-red;
+}

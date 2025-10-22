@@ -1,0 +1,60 @@
+@use "./variables" as v; 
+@use "./mixins" as m;
+
+.advice__wrap {
+  @include m.wrapper-desktop;
+}
+
+.advice__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 74px 0 100px 60px;
+}
+
+.advice__text {
+  position: relative;
+  width: 586px;
+}
+
+.advice__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 54px;
+  @include m.font44-title;
+}
+
+.advice__prim {
+  color: v.$main-color-red;
+}
+
+.advice__info {
+  position: relative;
+  width: 450px;
+  margin-bottom: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: v.$main-color-black;
+}
+
+.advice__img {
+  width: 612px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.advice__buttom {
+  display: inline-block;
+  min-width: 240px;
+  padding: 14px 40px;
+  font-family: v.$font-inter;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.advice__buttom:hover {
+  background-color: v.$main-color-hover-red;
+}

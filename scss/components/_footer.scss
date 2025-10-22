@@ -1,0 +1,31 @@
+@use "./variables" as v;
+@use "./mixins" as m;
+
+.footer {
+    margin: 0 auto;
+    padding-top: 55px;
+    background-color: v.$main-color-background;
+}
+
+.footer__wrap {
+    padding-bottom: 43px;
+    @include m.wrapper-desktop;
+}
+
+.footer__document {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 125px;
+}
+
+.footer__link {
+    position: relative;
+    font-family: v.$font-inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
+}

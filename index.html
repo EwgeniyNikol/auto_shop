@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="scss/normalize.css ">
+        <link rel="stylesheet" href="scss/main.css ">        
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <a href="#"><img src="images/image.png" class="header__logo-img" alt="логотип компании"></a>
+                </div>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">О нас </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Услуги</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Как купить</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Преимущества</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Отзывы</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+                <address class="header__address">
+                    <div class="header__social">
+                        <ul class="header__social-list">
+                            <li class="header__social-icon">
+                                <a href="#" class="header__social-telegram">
+                                <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                    <use href="images/sprite.svg#telegram-social"></use>
+                                </svg>
+                                    <span class="visually-hidden">ссылка на телеграм</span>
+                                </a>
+                            </li>
+                            <li class="header__social-icon">
+                                <a href="#" class="header__social-whatsapp">
+                                <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                    <use href="images/sprite.svg#watsap-social"></use>
+                                </svg>
+                                    <span class="visually-hidden">ссылка на ветсап</span>
+                                </a>
+                            </li>
+                            <li class="header__social-icon">
+                                <a href="#" class="header__social-youtube">
+                                <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                    <use href="images/sprite.svg#youtube-social"></use>
+                                </svg>
+                                    <span class="visually-hidden">ссылка на ютуб</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__tel">
+                        <a class="header__tel-number" href="tel:+78352675252">+7 (8352) 67-52-52</a>
+                        <a class="header__tel-number" href="tel:+79279971242">+7 (927) 997-12-42</a>
+                    </div>
+                </address>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="hero__wrap">
+                    <h1 class="hero__title">Купите автомобиль дешевле на 60%* </h1>
+                    <p class="hero__content">
+                        Привезем автомобиль под ключ со всеми документами. Подбор автомобиля
+                        под любой запрос 
+                        <span class="hero__big-text">бесплатно</span>
+                    </p>
+                    <a class="hero__button button" href="#">Оставить заявку </a>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="card__wrap">
+                    <h2 class="card__title">
+                        Поможем вам выгодно купить и привезти автомобиль в любую точку России
+                    </h2>
+                    <h3 class="card__offer">
+                        Предлагаем Вам купить автомобиль дешевле и лучше, но за тот же бюджет
+                    </h3>
+                    <a class="card__button button" href="#">Оставить заявку </a>
+                    <ul class="card__section">
+                        <li class="card__shoose card__shoose-img-1">
+                            <h4 class="card__name">С пробегом</h4>
+                            <p class="card__text">
+                                Предлагаем купить автомобиль дешевле до 60%, от рыночной цены на
+                                Авито и Авто.ру
+                            </p>
+                        </li>
+                        <li class="card__shoose card__shoose-img-2">
+                            <h4 class="card__name">Новые</h4>
+                            <p class="card__text">
+                                Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной
+                                цены на Авито и Авто.ру
+                            </p>
+                        </li>
+                        <li class="card__shoose card__shoose-img-3">
+                            <h4 class="card__name">Под ваш бюджет</h4>
+                            <p class="card__text">
+                                Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной
+                                цены на Авито и Авто.ру
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="aboutas">
+              <div class="aboutas__wrap">
+                <picture class="aboutas__picture">
+                    <source type="image/webp" srcset="images/container-about@1x.webp 1x, images/container-about@2x.webp 2x">
+                    <img src="images/container-about@1x.png" alt="фото офиса и работающих в нем людей" class="aboutas__img">
+                </picture>
+                <div class="aboutas__content">
+                  <h2 class="aboutas__title"> О нас  </h2>
+                  <p class="aboutas__text"> Мы автосалон и официальный партнер крупнейших мировых авто-аукционов: IAA (Insurance Auto Auction), Copart, Manheim.</p>
+                  <ul class="aboutas__info">
+                    <li class="aboutas__abinfo aboutas__abinfo-info-1">Работаем без посредников </li>
+                    <li class="aboutas__abinfo aboutas__abinfo-info-2">Успешный опыт 10 лет</li>
+                    <li class="aboutas__abinfo aboutas__abinfo-info-3">Отлаженная логистика</li>
+                  </ul>
+                  <div class="aboutas__frame">
+                    <p class="aboutas__info-text">Мы берем на себя полное сопровождение сделки <br> до передачи автомобиля в руки клиенту. </p>
+                  </div>
+                  <a class="aboutas__buttom button" href="#">Оставить заявку</a>
+                </div>
+              </div>
+            </section>
+
+            <section class="shop">
+                <div class="shop__wrap">
+                    <h2 class="shop__title">Какие авто привозим? </h2>
+                    <p class="shop__text">
+                        Привозим авто не старше 7 лет на момент растаможки. 
+                    </p>
+                    <a class="shop__button-pref" href="#"> </a>
+                    <a class="shop__button-next" href="#"> </a>
+                    <div class="shop__content-card">
+                        <div class="shop__card">
+                            <picture class="shop__picture">
+                                <source type="image/webp" srcset=" images/rav4.webp 1x, images/rav4@2x.webp 2x">
+                                <img src="images/rav4.png" srcset="images/rav4@2x.png 2x" alt="изображение авто тойота раф4" class="shop__img">
+                            </picture>
+                            <a class="shop__avto-title">Toyota RAV4 2022 </a>
+                            <div class="shop__text-price">
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Пробег  </span>
+                                    <span class="shop__strit-card-mean"> 5 700 км </span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt"> Объем двигателя </span>
+                                    <span class="shop__strit-card-mean"> 2.0  </span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt"> Мощность </span>
+                                    <span class="shop__strit-card-mean">149 л.с.</span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Коробка</span>
+                                    <span class="shop__strit-card-mean">Автомат</span>
+                                </div>
+                                <table class="shop__offer">
+                                  <tr class="shop__price">
+                                      <td class="shop__price-text-prim">Цена на вторичном рынке в РФ</td>
+                                      <td class="shop__price-old">3 300 000 ₽</td>
+                                  </tr>
+                                  <tr class="shop__price">
+                                      <td class="shop__price-text-prim">Цена автомобиля “под ключ”</td>
+                                      <td class="shop__price-now-price">2 700 000 ₽</td>
+                                  </tr>
+                                </table>
+                            </div>
+                            <a class="shop__button button" href="#">Оставить заявку</a>
+                        </div>
+                        <div class="shop__card">
+                            <picture class="shop__picture">
+                                <source type="image/webp" srcset=" images/audi.webp 1x, images/audi@2x.webp 2x">
+                                <img src="images/audi.png" srcset="images/audi@2x.png 2x" alt="изображени авто ауди ку5" class="shop_img">
+                            </picture>
+                            <a class="shop__avto-title">Audi Q5 2021</a>
+                            <div class="text-price">
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Пробег </span>
+                                    <span class="shop__strit-card-mean"> 5 700 км </span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt"> Объем двигателя </span>
+                                    <span class="shop__strit-card-mean"> 2.0 </span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt"> Мощность </span>
+                                    <span class="shop__strit-card-mean">149 л.с.</span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Коробка</span>
+                                    <span class="shop__strit-card-mean">Автомат</span>
+                                </div>
+                                <table class="shop__offer">
+                                  <tr class="shop__price">
+                                      <td class="shop__price-text-prim">Цена на вторичном рынке в РФ</td>
+                                      <td class="shop__price-old">3 250 000 ₽</td>
+                                  </tr>
+                                  <tr class="shop__price">
+                                      <td class="shop__price-text-prim">Цена автомобиля “под ключ”</td>
+                                      <td class="shop__price-now-price">2 500 000 ₽</td>
+                                  </tr>
+                                </table>                                
+                            </div>
+                            <a class="shop__button button" href="#">Оставить заявку</a>
+                        </div>
+                        <div class="shop__card">
+                            <picture class="shop__picture">
+                                <source type="image/webp" srcset=" images/honda.webp 1x, images/honda@2x.webp 2x">
+                                <img src="images/honda.png" srcset="images/honda@2x.png 2x" alt="изображение авто хонда црв" class="shop_img">
+                            </picture>
+                            <a class="shop__avto-title">Honda CR-V 2021</a>
+                            <div class="shop__text-price">
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Пробег </span>
+                                    <span class="shop__strit-card-mean"> 5 700 км </span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt"> Объем двигателя </span>
+                                    <span class="shop__strit-card-mean"> 2.0 </span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt"> Мощность </span>
+                                    <span class="shop__strit-card-mean">149 л.с.</span>
+                                </div>
+                                <div class="shop__strit">
+                                    <span class="shop__strit-card-txt">Коробка</span>
+                                    <span class="shop__strit-card-mean">Автомат</span>
+                                </div>
+                                <table class="shop__offer">
+                                  <tr class="shop__price">
+                                      <td class="shop__price-text-prim">Цена на вторичном рынке в РФ</td>
+                                      <td class="shop__price-old">2 900 000 ₽</td>
+                                  </tr>
+                                  <tr class="shop__price">
+                                      <td class="shop__price-text-prim">Цена автомобиля “под ключ”</td>
+                                      <td class="shop__price-now-price">2 300 000 ₽</td>
+                                  </tr>
+                                </table>                                   
+                            </div>
+                            <a class="shop__button button" href="#">Оставить заявку</a>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel__box main-box">
+                            <span class="visually-hidden">красная полоса прокрутки</span>
+                        </div>
+                        <div class="carousel__box">
+                            <span class="visually-hidden">скрытая полоса прокрутки</span>
+                        </div>
+                        <div class="carousel__box">
+                            <span class="visually-hidden">скрытая полоса прокрутки</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advice">
+              <div class="advice__wrap">
+                <div class="advice__content">
+                  <div class="advice__text">
+                    <h2 class="advice__title">Мы советуем подбирать автомобиль с бюджетом от <strong class="advice__prim">1,3 млн</strong></h2>
+                    <p class="advice__info">c учетом расходов на доставку, растаможку и наши услуги.</p>
+                    <a class="advice__buttom button" href="#">Оставить заявку</a>
+                  </div>
+                  <picture class="advice__picture">
+                    <source type="image/webp" srcset=" images/toyta@1x.webp 1x, images/toyta@2x.webp 2x">
+                    <img src="images/toyta@1x.png" srcset="images/toyta@2x.png 2x" alt="изображение авто тойота" class="advice__img">  
+                  </picture>               
+                </div>
+              </div>
+            </section>
+            
+            <section class="reviws">
+                <div class="reviws__wrap">
+                    <h2 class="reviws__title">Обзоры привезенных авто </h2>
+                    <div class="reviws__content">
+                        <a class="reviws__button-pref" href="#"> </a>
+                        <a class="reviws__button-next" href="#"> </a>
+                        <a class="reviws__button-yotube" href="#"> </a>
+                        <picture class="reviws_picture">
+                            <source type="image/webp" srcset="images/lexsusavto.webp 1x, images/lexsusavto@2x.webp 2x">
+                            <img src="images/lexsusavto.png" srcset="images/lexsusavto@2x.png 2x" alt="изображение авто лексус" class="reviws__img1">
+                        </picture>
+                        <picture class="reviws_picture">
+                            <source type="image/webp" srcset="images/lexusjxavto.webp 1x, images/lexusjxavto@2x.webp 2x">
+                            <img src="images/lexusjxavto.png" srcset="images/lexusjxavto@2x.png 2x" alt="изображение авто лексус" class="reviws__img2">
+                        </picture>
+                        <picture class="reviws_picture">
+                            <source type="image/webp" srcset="images/toytavto.webp 1x, images/toytavto@2x.webp 2x">
+                            <img src="images/toytavto.png" srcset="images/toytavto@2x.png 2x" alt="изображение авто тойота" class="reviws__img1">
+                        </picture>
+                    </div>
+                    <p class="reviws__info">Привезли <strong class="reviws__prim">Lexus GX 460 с COPART1 </strong> за <strong class="advice__prim">1 800 000 ₽ </strong>  </p> 
+                    <div class="reviws__carousel">
+                        <div class="carousel__box main-box">
+                            <span class="visually-hidden">полоска главная</span>
+                        </div>
+                        <div class="carousel__box">
+                            <span class="visually-hidden">полоска скрытая</span>
+                        </div>
+                        <div class="carousel__box">
+                            <span class="visually-hidden">полоска скрытая</span>
+                        </div>
+                    </div>
+                    <div class="reviws__text">
+                        <picture class="reviws_picture">
+                            <source type="image/webp" srcset="images/bmwcar.webp 1x, images/bmwcar@2x.webp 2x">
+                            <img src="images/bmwcar.png" srcset="images/bmwcar@2x.png 2x" alt="изображение передней части авто бмв " class="reviws__img3">
+                        </picture>
+                        <div class="reviws__pic">
+                            <h2 class="reviws__text-info">Посмотрите реальные истории в нашем <strong class="advice__prim">Telegram-канале </strong></h2>
+                            <a class="reviws__buttom button" href="#">Перейти в Telegram </a>
+                        </div>                      
+                    </div>                    
+                </div>           
+            </section>
+            <section class="advert">
+                <div class="advert__wrap">
+                    <h2 class="advert__title">
+                        Более 200 автомобилей привезено за 2022 
+                    </h2>
+                    <div class="advert__frame">
+                        <p class="advert__info">
+                            Проверяем всю историю обслуживания, владения 
+                            и ДТП с помощью платных сервисов, созданных 
+                            для профессиональных продавцов автомобилей.
+                        </p>
+                        <div class="advert__tex">
+                            <p class="advert__tex-info">Мы помогли сэкономить клиентам около <strong class="advert__prim">240 000 000 ₽</strong></p>                            
+                        </div>
+                    </div>
+                    <a class="advert__buttom button" href="#">Оставить заявку </a>
+                    <div class="advert__content">
+                        <a class="advert__button-pref" href="#"> </a>
+                        <a class="advert__button-next" href="#"> </a>
+                       <picture>
+                            <source type="image/webp" srcset="images/audi1869.webp 1x, images/audi1869@2x.webp 2x">
+                            <img src="images/audi1869.png" srcset="images/audi1869@2x.png 2x" alt="изображение авто ауди" class="advert__img1">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="images/volvo1871.webp 1x, images/volvo1871@2x.webp 2x">
+                            <img src="images/volvo1871.png" srcset="images/volvo1871@2x.png 2x" alt="изображение авто вольвро" class="advert__img1">
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="images/toyta1870.webp 1x, images/toyta1870@2x.webp 2x">
+                            <img src="images/toyta1870.png" srcset="images/toyta1870@2x.png 2x" alt="изображение авто лексус" class="advert__img1">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team">
+                <div class="team__wrap">
+                    <h2 class="team__title">Наша команда</h2>
+                    <p class="team__title-info">Опытные менеджеры поддерживают наших клиентов  </p>
+                    <div class="team_board">
+                        <div class="team__card team__card-img-1">
+                            <h3 class="team__card-title">Михаил Погосян</h3>
+                            <p class="team__card-job">Руководитель отдела</p>
+                            <a class="team__tel-number" href="tel:+79276665297">+7 (927) 666-52-97</a>
+                            <ul class="team__social-list">
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-telegram">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на телеграм</span>
+                                    </a>
+                                </li>
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-whatsapp">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на ветсап</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team__card team__card-img-2">
+                            <h3 class="team__card-title">Тимур Павлов</h3>
+                            <p class="team__card-job">Главный менеджер</p>
+                            <a class="team__tel-number" href="tel:+79276665297">+7 (927) 666-52-97</a>
+                            <ul class="team__social-list">
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-telegram">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на телеграм</span>
+                                    </a>
+                                </li>
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-whatsapp">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на ветсап</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team__card team__card-img-3">
+                            <h3 class="team__card-title">Арам Ароян</h3>
+                            <p class="team__card-job">Менеджер</p>
+                            <a class="team__tel-number" href="tel:+79276665297">+7 (927) 666-52-97</a>
+                            <ul class="team__social-list">
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-telegram">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на телеграм</span>
+                                    </a>
+                                </li>
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-whatsapp">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на ветсап</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team__card team__card-img-4">
+                            <h3 class="team__card-title">Денис Николаев</h3>
+                            <p class="team__card-job">Менеджер</p>
+                            <a class="team__tel-number" href="tel:+79276665297">+7 (927) 666-52-97</a>
+                            <ul class="team__social-list">
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-telegram">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на телеграм</span>
+                                    </a>
+                                </li>
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-whatsapp">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на ветсап</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team__card team__card-img-5">
+                            <h3 class="team__card-title">Алексей Кузнецов</h3>
+                            <p class="team__card-job">Менеджер</p>
+                            <a class="team__tel-number" href="tel:+79276665297">+7 (927) 666-52-97</a>
+                            <ul class="team__social-list">
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-telegram">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на телеграм</span>
+                                    </a>
+                                </li>
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-whatsapp">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на ветсап</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team__card team__card-img-6">
+                            <h3 class="team__card-title">Андрей Шахназарян</h3>
+                            <p class="team__card-job">Менеджер</p>
+                            <a class="team__tel-number" href="tel:+79276665297">+7 (927) 666-52-97</a>
+                            <ul class="team__social-list">
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-telegram">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на телеграм</span>
+                                    </a>
+                                </li>
+                                <li class="header__social-icon">
+                                    <a href="#" class="header__social-whatsapp">
+                                    <svg class="social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                        <span class="visually-hidden">ссылка на ветсап</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="chime">
+                <div class="chime__wrap">
+                    <div class="chime__case">
+                        <h2 class="chime__case-title">Только телефон, и мы в деле </h2>
+                        <p class="chime__case-text">Специалист перезвонит Вам в течение <br> 5 минут, в рабочее время для уточнения деталей </p>
+                        <form class="chime__form">
+                            <label>
+                                <input class="chime__input" type="tel" id="phone" name="phone" placeholder="+7 (927) 666-52-97" required>
+                            </label>
+                            <button class="chime__button button"> Получить консультацию </button>
+                            <input class="chime__input-checkbox" type="checkbox" required id="policy">
+                            <label class="chime__checkbox" for="policy">
+                                 <span class="chime__checkbox-text">Нажимая на кнопку вы соглашаетесь с условиями Политики конфиденциальности</span>
+                            </label>              
+                        </form>
+                        <p class="chime__mesange">Связаться с нами через мессенджер</p>
+                        <div class="chime__social">
+                            <div class="chime__social-border">
+                                <a href="#" class="chime__social-whatsapp">
+                                    <svg class="chime__social-icon" width="20" height="20" viewBox="0 0 31 30">
+                                        <use href="images/sprite.svg#watsap-social"></use>
+                                    </svg>
+                                    <span class="chime__social-text">Whatsapp</span>
+                                </a>
+                            </div>
+                            <div class="chime__social-border">
+                                <a href="#" class="chime__social-telegram">
+                                    <svg class="chime__social-icon" width="20" height="20" viewBox="0 0 31 30" >
+                                        <use href="images/sprite.svg#telegram-social"></use>
+                                    </svg>
+                                    <span class="chime__social-text">Telegram</span>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="chime__services">
+                        <h2 class="chime__services-title">Точный расчет стоимости уже через 1 час</h2>
+                        <ul class="chime__info">
+                            <li class="chime__abinfo chime__abinfo-info-1">Расскажем какие автомобили вы можете купить с наибольшей выгодой.</li>
+                            <li class="chime__abinfo chime__abinfo-info-1">Отправим подобранные автомобили на ваш WatsApp или Telegram</li>
+                            <li class="chime__abinfo chime__abinfo-info-1">Сделаем точный расчет стоимости автомобиля с доставкой в ваш город “под ключ”</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact__wrap">
+                    <h2 class="contact__title">Наши контакты</h2>
+                    <ul class="contact__content">
+                        <li class="contact__adress">
+                            <h3 class="contact__name">Адрес</h3>
+                            <a class="contact__text">428000, г. Чебоксары, <br> Марпосадское шоссе, 14.</a>
+                        </li>
+                        <li class="contact__time">
+                            <h3 class="contact__name">Время работы:</h3>
+                            <a class="contact__text">Ежедневно 10:00 до 19:00</a>
+                        </li>
+                        <li class="contact_tel">
+                            <h3 class="contact__name">Телефон:</h3>
+                            <a class="contact__text contact__text-hover" href="tel:89279971242">8 927 997 12 42</a>
+                            <a class="contact__text contact__text-hover" href="tel:89279971242">8 927 997 12 42</a>
+                        </li>
+                        <li class="contact__email">
+                            <h3 class="contact__name">E-mail:</h3>
+                            <a class="contact__text" href="mailto:carmark21@auto.ru">carmark21@auto.ru</a>    
+                        </li>
+                        <li class="contact__social">
+                            <h3 class="contact__name">Соц. сети:</h3> 
+                            <a href="#" class="contact__social-whatsapp">
+                              <svg class="contact__social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                <use href="images/sprite.svg#watsap-social"></use>
+                              </svg>
+                                <span class="visually-hidden">ссылка на ветсап</span>
+                            </a>
+                            <a href="#" class="contact__social-telegram">
+                              <svg class="contact__social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                <use href="images/sprite.svg#telegram-social"></use>
+                              </svg>
+                                <span class="visually-hidden">ссылка на телеграм</span>
+                            </a>
+                            <a href="#" class="contact__social-youtube">
+                              <svg class="contact__social-icon" width="31" height="30" viewBox="0 0 31 30" >
+                                <use href="images/sprite.svg#youtube-social"></use>
+                              </svg>
+                                <span class="visually-hidden">ссылка на ютуб</span>
+                            </a>
+                        </li>                        
+                    </ul>
+                    <address class="contact__map"> 
+                        <div class="contact__map-karta">
+                            <iframe 
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3A155b40d2add2bc4cb32bd53f94a0f4c34d9602b5b69661b83dc13327bec52642&amp;source=constructor" style="border: none;">
+                            </iframe>
+                        </div>                        
+                    </address>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__wrap">
+                    <ul class="footer__document">
+                        <li class="footer__recvizit">
+                            <a class="footer__link" href="#">Реквизиты</a>
+                        </li>
+                        <li class="footer__confid">
+                            <a class="footer__link" href="#">Политика конфиденциальности </a>
+                        </li>
+                    </ul>
+                </div>                
+            </footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+@use "./variables" as v; 
+@use "./mixins" as m;
+
+.aboutas__wrap {
+  padding-top: 63px;
+  display: flex;
+  gap: 100px;  
+}
+
+.aboutas__picture {
+  display: flex; 
+  flex: 1;  
+  // max-width: 50%;
+  height: auto;
+}
+
+.aboutas__img {
+  object-fit: cover; 
+  object-position: center right;
+}
+
+.aboutas__content {
+  max-width: 50%;
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+.aboutas__title {
+  padding-top: 60px;
+  font-weight: 700;
+  @include m.font44-title;
+  margin-bottom: 12px;
+}
+
+.aboutas__text {
+  width: 524px;
+  // padding-top: 12px;
+  font-family: v.$font-inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: v.$main-color-black;
+  margin-bottom: 40px;
+}
+
+.aboutas__info{
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  // padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+.aboutas__abinfo {
+  font-family: v.$font-inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  padding-left: 76px;
+  margin-bottom: 41px;
+
+}
+
+.aboutas__abinfo::before {
+  position: absolute;
+  left: 0;
+  top: -15px;
+  background-color: v.$main-color-red;
+  content: "";
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 36px 36px;
+ }
+
+.aboutas__abinfo-info-1::before {
+ background-image: url(../images/Text_input_container_1x.png);
+}
+
+.aboutas__abinfo-info-2::before {
+ background-image: url(../images/Text_input_container2_1x.png);
+}
+
+.aboutas__abinfo-info-3::before {
+ background-image: url(../images/Text_input_container3.png);
+}
+
+.aboutas__frame {
+ width: 488px;
+ border: 2px solid v.$main-color-red;
+ margin-bottom: 32px;
+ display: flex;
+ border-radius: 15px;
+ padding: 10px 20px; 
+ align-items: center;
+}
+
+.aboutas__info-text {
+  font-family: v.$font-inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  width: 435px;
+  line-height: 24px;
+}
+
+.aboutas__buttom {
+  padding: 14px 30px;
+  min-width: 235px;
+  font-size: 20px;
+  font-family: v.$font-inter;
+  font-weight: 700;
+ 
+
+}
+
+.aboutas__buttom:hover {
+  background-color: v.$main-color-hover-red;
+}

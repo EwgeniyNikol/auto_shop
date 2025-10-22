@@ -1,0 +1,31 @@
+@use "./variables" as v;
+
+@mixin wrapper-desktop() {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+@mixin button-circle() {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 63px;
+    border: none;
+    border-radius: 50%;
+    background-color: v.$main-color-red;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: v.$main-color-white;
+    box-sizing: border-box;
+}
+
+@mixin font44-title() {
+    font-family: v.$font-inter;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 54px;
+    color: v.$main-color-black;
+}

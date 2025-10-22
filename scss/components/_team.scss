@@ -1,0 +1,175 @@
+@use "./variables" as v;
+@use "./mixins" as m;
+
+.team {
+    background-color: v.$main-color-background;
+}
+
+.team__wrap {
+    @include m.wrapper-desktop;
+}
+
+.team__title {
+    margin-bottom: 28px;
+    padding-top: 100px;
+    font-weight: 800;
+    line-height: 54px;
+    text-align: center;
+    @include m.font44-title;
+}
+
+.team__title-info {
+    margin-bottom: 40px;
+    font-family: v.$font-inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: v.$main-color-black;
+    text-align: center;
+}
+
+.team_board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-bottom: 100px;
+}
+
+.team__card {
+    width: 411px;
+    height: 496px;
+    padding: 300px 0 0 32px;
+    filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.08));
+}
+
+.team__card-title {
+    font-family: v.$font-inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: v.$main-color-black;
+}
+
+.team__card-job {
+    margin-bottom: 24px;
+    padding-top: 8px;
+    font-family: v.$font-inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.team__tel-number {
+    font-family: v.$font-inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: v.$main-color-red;
+}
+
+.team__social-list {
+    display: flex;
+    width: 84px;
+    padding-top: 16px;
+}
+
+.team__card-img-1 {
+    background-image: url("../images/pogosyn.png");
+    background-image: -webkit-image-set(
+        url("../images/pogosyn.avif") 1x,
+        url("../images/pogosyn@2x.avif") 2x,
+        url("../images/pogosyn.webp") 1x,
+        url("../images/pogosyn@2x.webp") 2x
+    );
+    background-image: image-set(
+        url("../images/pogosyn.avif") 1x,
+        url("../images/pogosyn@2x.avif") 2x,
+        url("../images/pogosyn.webp") 1x,
+        url("../images/pogosyn@2x.webp") 2x
+    );
+}
+
+.team__card-img-2 {
+    background-image: url("../images/pavlov.png");
+    background-image: -webkit-image-set(
+        url("../images/pavlov.avif") 1x,
+        url("../images/pavlov@2x.avif") 2x,
+        url("../images/pavlov.webp") 1x,
+        url("../images/pavlov@2x.webp") 2x
+    );
+    background-image: image-set(
+        url("../images/pavlov.avif") 1x,
+        url("../images/pavlov@2x.avif") 2x,
+        url("../images/pavlov.webp") 1x,
+        url("../images/pavlov@2x.webp") 2x
+    );
+}
+
+.team__card-img-3 {
+    background-image: url("../images/aroyn.png");
+    background-image: -webkit-image-set(
+        url("../images/aroyn.avif") 1x,
+        url("../images/aroyn@2x.avif") 2x,
+        url("../images/aroyn.webp") 1x,
+        url("../images/aroyn@2x.webp") 2x
+    );
+    background-image: image-set(
+        url("../images/aroyn.avif") 1x,
+        url("../images/aroyn@2x.avif") 2x,
+        url("../images/aroyn.webp") 1x,
+        url("../images/aroyn@2x.webp") 2x
+    );
+}
+
+.team__card-img-4 {
+    background-image: url("../images/nikol.png");
+    background-image: -webkit-image-set(
+        url("../images/nikol.avif") 1x,
+        url("../images/nikol@2x.avif") 2x,
+        url("../images/nikol.webp") 1x,
+        url("../images/nikol@2x.webp") 2x
+    );
+    background-image: image-set(
+        url("../images/nikol.avif") 1x,
+        url("../images/nikol@2x.avif") 2x,
+        url("../images/nikol.webp") 1x,
+        url("../images/nikol@2x.webp") 2x
+    );
+}
+
+.team__card-img-5 {
+    background-image: url("../images/kuznecov.png");
+    background-image: -webkit-image-set(
+        url("../images/kuznecov.avif") 1x,
+        url("../images/kuznecov@2x.avif") 2x,
+        url("../images/kuznecov.webp") 1x,
+        url("../images/kuznecov@2x.webp") 2x
+    );
+    background-image: image-set(
+        url("../images/kuznecov.avif") 1x,
+        url("../images/kuznecov@2x.avif") 2x,
+        url("../images/kuznecov.webp") 1x,
+        url("../images/kuznecov@2x.webp") 2x
+    );
+}
+
+.team__card-img-6 {
+    background-image: url("../images/schax.png");
+    background-image: -webkit-image-set(
+        url("../images/schax.avif") 1x,
+        url("../images/schax@2x.avif") 2x,
+        url("../images/schax.webp") 1x,
+        url("../images/schax@2x.webp") 2x
+    );
+    background-image: image-set(
+        url("../images/schax.avif") 1x,
+        url("../images/schax@2x.avif") 2x,
+        url("../images/schax.webp") 1x,
+        url("../images/schax@2x.webp") 2x
+    );
+}
